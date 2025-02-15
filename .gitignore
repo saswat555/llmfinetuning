@@ -25,15 +25,7 @@ cache/
 huggingface/
 cache/
 
-# Ignore dataset and temporary files
-data/
-*.jsonl
-*.csv
-*.txt
-*.tsv
-*.zip
-*.tar
-*.gz
+
 
 # Ignore VSCode and Jupyter notebook checkpoints
 .vscode/
