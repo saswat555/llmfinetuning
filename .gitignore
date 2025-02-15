@@ -1,0 +1,54 @@
+# Ignore Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Ignore virtual environment (rename 'env' if your environment has a different name)
+env/
+venv/
+.venv/
+
+# Ignore model files and large datasets
+model/
+checkpoints/
+finetuned_model/
+cache/
+*.bin
+*.pt
+*.onnx
+*.h5
+
+# Ignore Hugging Face cache
+~/.cache/huggingface/
+huggingface/
+cache/
+
+# Ignore dataset and temporary files
+data/
+*.jsonl
+*.csv
+*.txt
+*.tsv
+*.zip
+*.tar
+*.gz
+
+# Ignore VSCode and Jupyter notebook checkpoints
+.vscode/
+.ipynb_checkpoints/
+
+# Ignore system-specific files (MacOS, Windows, Linux)
+.DS_Store
+Thumbs.db
+.idea/
+*.swp
+*.swo
+*.bak
+
+# Ignore logs and outputs
+logs/
+*.log
+wandb/
+tensorboard/
